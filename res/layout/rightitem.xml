@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:textColor="#808080"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/timeTextView"
+        android:contentDescription="@string/yellowman"
+        android:padding="10dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeTextView"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/imageView"
+        android:text="@string/yellowman"
+        android:textColor="#222222"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="50dp"
+        android:layout_toLeftOf="@id/imageView"
+        android:background="@drawable/aio_user_bg_nor_11"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+</RelativeLayout>
